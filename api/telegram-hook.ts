@@ -51,7 +51,7 @@ Ready to browse without borders? Get today's list below
 bot.action("socks_5", async (ctx) => {
   await ctx.answerCbQuery();
   await ctx.replyWithDocument({
-    url: "https://github.com/emerur/unlimited_bot/blob/main/socks5.txt", // Replace with your actual file URL
+    url: "https://github.com/Elorm2000/ghost-vpns/blob/main/socks5.txt", // Replace with your actual file URL
     filename: "Today's socks5", // Optional: custom filename
   });
 });
@@ -59,7 +59,7 @@ bot.action("socks_5", async (ctx) => {
 bot.action("socks_4", async (ctx) => {
   await ctx.answerCbQuery();
   await ctx.replyWithDocument({
-    url: "https://github.com/emerur/unlimited_bot/blob/main/socks4.txt", // Replace with your actual file URL
+    url: "https://github.com/Elorm2000/ghost-vpns/blob/main/socks4.txt", // Replace with your actual file URL
     filename: "Today's socks4", // Optional: custom filename
   });
 });
